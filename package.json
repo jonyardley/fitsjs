@@ -7,17 +7,14 @@
     "type": "git",
     "url": "https://github.com/astrojs/fitsjs.git"
   },
-  "keywords": [
-    "astronomy",
-    "astrophysics",
-    "fits",
-    "data",
-    "science"
-  ],
+  "keywords": ["astronomy", "astrophysics", "fits", "data", "science"],
   "license": "MIT",
   "devDependencies": {
     "astrojs": "*",
     "coffee-script": "1.6.3"
+  },
+  "scripts": {
+    "build": "cake build"
   },
   "_dependencyOrder": [
     "fits",
