@@ -16,6 +16,7 @@
   "scripts": {
     "build": "cake build"
   },
+  "main": "lib/fits.js",
   "_dependencyOrder": [
     "fits",
     "dataunit",
